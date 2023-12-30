@@ -331,12 +331,13 @@ body {
         height: 0;
         overflow: hidden;
         background-color: white;
+        border-bottom: 1px solid transparent;
         transition: .3s all;
     }
 
     .menu.active {
         padding: .6rem 0;
-        border-bottom: 1px solid black;
+        border-color: black;
         height: 200px;
     }
 
